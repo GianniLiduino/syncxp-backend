@@ -56,6 +56,12 @@ spring.datasource.password=SUA_SENHA
 ```
 *O sistema está configurado com `ddl-auto=update`, então as tabelas serão criadas automaticamente na primeira execução.*
 
+Também, defina uma secret-key de 32 caracteres e um limite de tempo para o token expirar!
+```secret-key
+auth.secret-key=
+auth.token-expiration-hours=24
+```
+
 ### 3. Build e Execução
 No terminal, na raiz do projeto, execute:
 ```bash
